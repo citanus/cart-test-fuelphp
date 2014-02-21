@@ -1,0 +1,15 @@
+[submodule "fuel/core"]
+	path = fuel/core
+	url = https://github.com/fuel/core.git
+[submodule "fuel/packages/oil"]
+	path = fuel/packages/oil
+	url = https://github.com/fuel/oil.git
+[submodule "fuel/packages/auth"]
+	path = fuel/packages/auth
+	url = https://github.com/fuel/auth.git
+[submodule "fuel/packages/parser"]
+	path = fuel/packages/parser
+	url = https://github.com/fuel/parser.git
+[submodule "app/modules/eshop"]
+	path = app/modules/eshop
+	url = /home/cita/vcs/cart-test-eshop-fuelphp/
