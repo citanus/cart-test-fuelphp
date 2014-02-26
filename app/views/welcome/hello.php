@@ -37,6 +37,7 @@
 	</header>
 	<div class="container">
 		<div class="row">
+			<p><a class="btn btn-primary btn-lg" href="<?echo Uri::create('welcome');?>">Show home page</a></p>
 			<div class="col-md-12">
 				<h1>Hello, <?php echo $name; ?>! <small>Congratulations, you just used a ViewModel!</small></h1>
 				<hr>

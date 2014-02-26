@@ -39,7 +39,8 @@
 		<div class="jumbotron">
 			<h1>Welcome!</h1>
 			<p>You have successfully installed the Cart test in FuelPHP.</p>
-			<p><a class="btn btn-primary btn-lg" href="http://docs.fuelphp.com">Show test page</a></p>
+			<p><a class="btn btn-primary btn-lg" href="<?echo Uri::create('welcome/hello');?>">Show hello page</a></p>
+			<p><a class="btn btn-primary btn-lg" href="<?echo Uri::create('eshop/eshop');?>">Show eshop test page</a></p>
 		</div>
 		<hr/>
 		<footer>
