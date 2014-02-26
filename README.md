@@ -11,7 +11,7 @@ Test site created for prove possibilities of author in programming in "FuelPHP f
 	* create basic class structure for cart(abstract) and cart item
 	* implement cart storage driver classes for session and cookie
 	* create basic page for testing cart driver classes. Expected functions:
-		* chose cart driver and display cart items
+		* display cart items
 		* add/remove/clear items from cart
 		* show total price, total vat price
 	* use simple auth from FuelPHP core.
