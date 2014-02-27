@@ -38,6 +38,21 @@ Enter newly created directory and load git submodules and update composer:
 
 Tested with ZendServer 6.3 CE with 5.3 as apache module. Requires php 5.3 and enabled htaccess file.
 
+
+## Comments & todo
+
+	* Tested with ZendServer 6.3 CE with 5.3 as apache module. Requires php 5.3 and enabled htaccess file.
+	* @todo figure out why delete not working for both cookie and session cart driver
+	* figure out how protect modules against unauthorized access using some built-in mechanism
+    * figure out how auto include modules namespaces when using required paths(path appmodules.DS.eshop/classes/cart/cart_driver should bew found as Eshop\Cart_Driver)
+	* figure out how create links in modules without repeating module name in every call.
+	* figure out why FuelPHP didn't delete session key on Session::delete and same for cookie
+	* Challenge 1
+	* Challenge 2
+
+
+
+
 ##Author
 
 * J.Vitek (citanus [dead fish] gmail com)
