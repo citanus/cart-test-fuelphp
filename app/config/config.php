@@ -179,6 +179,7 @@ return array(
 			'Fuel\\Core\\View',
 			'Fuel\\Core\\ViewModel',
 			'Closure',
+			'Eshop\\Cart_Item',
 		),
 	),
 
