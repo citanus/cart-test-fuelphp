@@ -27,7 +27,7 @@ Tested unde Zend Server 6.3 CE with php5.3 as apache module. Requires php 5.3 an
 Clone this repository:
 
 
-	git clone https://github.com/citanus/cart-test-fuelphp.git cart-test-fuelph
+	git clone https://github.com/citanus/cart-test-fuelphp.git cart-test-fuelphp
 
 Enter newly created directory and load git submodules and update composer:
 
