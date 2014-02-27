@@ -24,14 +24,17 @@ Tested unde Zend Server 6.3 CE with php5.3 as apache module. Requires php 5.3 an
 
 ## Install instructions
 
-Clone this repository
+Clone this repository:
 
-	git clone http://git.localhost/cart-test-fuelphp.git cart-test-fuelphp
 
-Enter newly created directory and run update script
+	git clone https://github.com/citanus/cart-test-fuelphp.git cart-test-fuelph
+
+Enter newly created directory and load git submodules and update composer:
 
 	cd cart-test-fuelphp
-	./update.sh
+	git submodule init
+	git submodule update
+	php composer.phar update
 
 Tested with ZendServer 6.3 CE with 5.3 as apache module. Requires php 5.3 and enabled htaccess file.
 
